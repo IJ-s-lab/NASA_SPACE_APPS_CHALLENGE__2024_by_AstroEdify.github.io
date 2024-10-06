@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; /* font-family: 'Poppins', sans-serif;*/ list-style: none; scroll-behavior: smooth ;
+}
+
+body{ background-size: cover; background-repeat: no-repeat; overflow-x: hidden;
+
+}
+
+.btn{ align-items: center; background:#252b2b; color:#ece3f1; text-decoration: none; border-radius: 25px; padding: 0.5rem 1rem; transition: all .3s ease; border: 2px solid #343939; font-weight: 200;
+
+}
