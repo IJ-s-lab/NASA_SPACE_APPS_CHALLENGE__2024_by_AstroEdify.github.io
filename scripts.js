@@ -7,7 +7,7 @@ btn.addEventListener('click', (e) => {
   const writeGALAXY = writeGALAXYInput.value;
 
   if (writeGALAXY === 'GALAXY') {
-    window.location.href = 'index1.html';
+    window.location.href = 'index2.html';
 
   } else {
     alert('Invalid');
