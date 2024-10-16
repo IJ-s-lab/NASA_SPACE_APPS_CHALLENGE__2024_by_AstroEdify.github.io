@@ -1,12 +1,97 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300&display=swap');
 
-*{ margin: 0; padding: 0; box-sizing: border-box; /* font-family: 'Poppins', sans-serif;*/ list-style: none; scroll-behavior: smooth ;
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 
-body{ background-size: cover; background-repeat: no-repeat; overflow-x: hidden;
-
+/* Body Styling */
+body {
+  background: url('space-bg.png') no-repeat center center fixed ;
+  background-size: cover;
+ 
+  color: #ece3f1;
+  text-align: center;
+  padding: 2rem;
 }
 
-.btn{ align-items: center; background:#252b2b; color:#ece3f1; text-decoration: none; border-radius: 25px; padding: 0.5rem 1rem; transition: all .3s ease; border: 2px solid #343939; font-weight: 200;
+/* Header Styling */
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  margin-bottom: 1.5rem;
+}
 
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+h3, h4 {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 1rem 0;
+  color: #d4d4f7;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  background: #2e3840;
+  color: #ece3f1;
+  text-decoration: none;
+  border-radius: 25px;
+  padding: 0.7rem 1.5rem;
+  transition: all 0.3s ease;
+  border: 2px solid #343939;
+  font-weight: 400;
+  margin: 0.5rem;
+}
+
+.btn:hover {
+  background: #ff6600;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(255, 102, 0, 0.6);
+}
+
+/* Additional Styling */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #ff6600;
+  margin: 1.5rem 0;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+  }
 }
