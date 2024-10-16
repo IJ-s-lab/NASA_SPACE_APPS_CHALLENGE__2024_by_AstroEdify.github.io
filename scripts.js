@@ -10,6 +10,6 @@ btn.addEventListener('click', (e) => {
     window.location.href = 'index2.html';
 
   } else {
-    alert('Invalid');
+    window.location.href = '404.html';
   }
 });
